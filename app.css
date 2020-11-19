@@ -1,0 +1,71 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+body {
+  background-image: url(../image/shiba.jpg);
+}
+header {
+  text-align: center;
+  border: 3px solid black;
+  background-color: #de9967;
+  margin: 20px; 
+  
+}
+.startPage {
+  background-color: bisque;
+  text-align: center;
+  margin: 20px;
+  border: 3px solid #000000;
+  padding: 10px;
+}
+.questionPage {
+  margin: 20px;
+  border: 3px solid #000000;
+  background-color: bisque;
+}
+.finalPage {
+  margin: 20px;
+  border: 3px solid #000000;
+  background-color: bisque;
+}
+.question {
+  text-align: center;
+  
+}
+h1{
+  font-size: 26px;;
+}
+p {
+  font-size: 20px;
+}
+.showScore {
+  text-align: right;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.answerContent {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.showCorrect {
+  margin: 20px;
+  border: 3px solid #000000;
+  background-color: bisque;
+}
+.showIncorrect {
+  margin: 20px;
+  border: 3px solid #000000;
+  background-color: bisque;
+}
+.rightAnswer {
+  color: green;
+}
+img {
+  margin-bottom: 10px;;
+}
+
