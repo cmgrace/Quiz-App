@@ -177,7 +177,7 @@ function checkAnswer(userAnswer) {
 function showCorrectAnswer() {
   return `<div class="showCorrect">
   <h3>Good job! You're killing it.</h3>
-  <div><img src="../image/happyShiba.png" alt="correct" width="300"></div>
+  <div><img src="image/happyShiba.png" alt="correct" width="300"></div>
   <button type="button" id="nextQuestion">Next Question</button>
 </div>`
 }
@@ -185,7 +185,7 @@ function showCorrectAnswer() {
 function showIncorrectAnswer() {
   return `<div class="showIncorrect">
   <h3>Sorry, that's a wrong answer, the right answer is:<br><br> <span class="rightAnswer">"${store.questions[store.questionNumber].correctAnswer}."</span></h3>
-  <div><img src="../image/sadShiba.png" alt="incorrect" width="200"></div>
+  <div><img src="image/sadShiba.png" alt="incorrect" width="200"></div>
   <button type="button" id="nextQuestion">Next Question</button>
 </div>`
 }
